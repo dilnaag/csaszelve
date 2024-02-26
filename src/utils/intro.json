@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Gyermeknap",
+    "db": "Gyerekek",
+    "detail": "Egy fedlejthetetlen élmény a városrészben élők és a szopnzorok gyermekei részére.",
+    "image": "./goals/kids.jpg"
+  },
+  {
+    "name": "Családi nap",
+    "db": "Családok és családtagok",
+    "detail": "Családi nap kicsik és nagyok részére. Szonzoraink bemutatására és kikapcsolódására.",
+    "image": "./goals/csaladi.jpg"
+  },
+  {
+    "name": "Mikulás ünnepség",
+    "db": "Gyerekek",
+    "detail": "Egy felejthetetlen Mikulás élmény a gyermekeink részére.",
+    "image": "./goals/miki.jpg"
+  }
+]

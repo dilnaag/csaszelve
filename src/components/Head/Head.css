@@ -1,0 +1,116 @@
+
+.head-wrapper {
+  color: white;
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.hero-container {
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+h3 {
+  margin-bottom: 0.4rem;
+  color: rgb(0, 255, 68);
+}
+
+.head-left {
+  gap: 4rem;
+}
+
+.head-title {
+  position: relative;
+  z-index: 1;
+  color: rgb(32, 150, 32);
+}
+
+.head-title>h1 {
+  font-weight: 400;
+  font-size: 4.4rem;
+  line-height: 4rem;
+}
+
+.orange-circle {
+  height: 4rem;
+  width: 4rem;
+  background: rgb(13, 155, 165);
+  background: linear-gradient(144deg, rgb(25, 161, 215) 0%, rgba(255,255,255,1) 80%);
+  border-radius: 999px;
+  position: absolute;
+  right: 28%;
+  top: -10%;
+  z-index: -1;
+}
+.brightText{
+  color: rgba(226, 238, 249, 0.409);
+}
+
+.search-bar {
+  background-color: white;
+  border-radius: 5px;
+  border: 3px solid rgba(120, 120, 120, 0.374);
+  padding: 0.5rem 1rem;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.search-bar >input {
+  border: none;
+  outline: none;
+}
+
+.stats {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.stat>:nth-child(1){
+  font-size: 2rem;
+}
+
+.stat>:nth-child(1)>:last-child{
+  color: orange;
+}
+
+.img-container {
+  width: 30rem;
+  height: 30rem;
+  overflow: hidden;
+  border-radius: 15rem 15rem 15rem 15rem;
+  border: 8px solid rgba(219, 216, 115, 0.12);
+}
+
+.img-container>img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 640px){
+  .head-title>h1{
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  #circle{
+    display: none;
+  }
+  .img-container{
+    width: 95%;
+    height: 25rem;
+  }
+  .stats{
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  .head-right{
+    width: 100%;
+  }
+  .stat>:nth-child(1)
+  {
+    font-size: 1.5rem;
+  }
+  .stat>:nth-child(2)
+  {
+    font-size: 0.8rem;
+  }
+}
