@@ -26,7 +26,7 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className='primaryText'>Dimény Renáta</span>
-                    <span className='secondaryText'>+36202196340</span>
+                    <span className='secondaryText'>+36706230144</span>
                   </div>
                 </div>
                 <div className="flexCenter button">
@@ -41,7 +41,7 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className='primaryText'>Gyánó-Válik Szimonetta</span>
-                    <span className='secondaryText'>+36203959923</span>
+                    <span className='secondaryText'>+36308526544</span>
                   </div>
                 </div>
                 <div className="flexCenter button">
@@ -56,7 +56,7 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className='primaryText'>Vincze Ágnes</span>
-                    <span className='secondaryText'>+36202196340</span>
+                    <span className='secondaryText'>+36302648531</span>
                   </div>
                 </div>
                 <div className="flexCenter button">
