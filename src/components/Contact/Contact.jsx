@@ -1,6 +1,7 @@
 import React from 'react'
 import './Contact.css'
 import { MdCall } from 'react-icons/md'
+import { contacts } from '../../utils/contact'
 
 
 const Contact = () => {
@@ -17,54 +18,34 @@ const Contact = () => {
 
           <div className="flexColStart contactModes">
             
-            <div className="flexStart row">
-                  {/* Kosa falu */}
+            {contacts.map(obj =>
+              <div className="flexStart row">
+                  
               <div className="flexColCenter mode">
-                <div className="flexStart">
+                <div className="flexStart ">
                   <div className="flexCenter icon">
                     <MdCall size={25} />
                   </div>
-                  <div className="flexColStart detail">
-                    <span className='primaryText'>Dimény Renáta</span>
-                    <span className='secondaryText'>+36706230144</span>
+                  <div className="flexColStart detail content">
+                    <div className='contactcontainer'>
+                      <span className='primaryText'>{obj.name}</span>
+                      <img src={obj.img} alt={obj.name} className='contimg'/>
+                    </div>
+                    
+                    <span className='primaryText'>{obj.position}</span>
+                    <span className='secondaryText'>{obj.tel}</span>
                   </div>
                 </div>
                 <div className="flexCenter button">
                   <a href="tel:+36309789391">Hívjon most!</a>
                 </div>
               </div>
-                  {/* Elnok */}
-              <div className="flexColCenter mode">
-                <div className="flexStart">
-                  <div className="flexCenter icon">
-                    <MdCall size={25} />
-                  </div>
-                  <div className="flexColStart detail">
-                    <span className='primaryText'>Gyánó-Válik Szimonetta</span>
-                    <span className='secondaryText'>+36308526544</span>
-                  </div>
-                </div>
-                <div className="flexCenter button">
-                  <a href="tel:+36309789391">Hívjon most!</a>
-                </div>
-              </div>
-                  {/* Rendor falu */}
-              <div className="flexColCenter mode">
-                <div className="flexStart">
-                  <div className="flexCenter icon">
-                    <MdCall size={25} />
-                  </div>
-                  <div className="flexColStart detail">
-                    <span className='primaryText'>Vincze Ágnes</span>
-                    <span className='secondaryText'>+36302648531</span>
-                  </div>
-                </div>
-                <div className="flexCenter button">
-                  <a href="tel:+36309789391">Hívjon most!</a>
-                </div>
-              </div>
-
             </div>
+            )}
+              
+                 
+
+            
           </div>
         </div>
       </div>

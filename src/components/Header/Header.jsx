@@ -24,7 +24,7 @@ const Header = () => {
           <div className="flexEnd h-menu"
             style={getMenuStyles(menuOpened)}
           >
-            <a href="#golas">Céljaink</a>
+            <a href="#goals">Céljaink</a>
             <a href="#contact">Kapcsolat</a>
             
           </div>

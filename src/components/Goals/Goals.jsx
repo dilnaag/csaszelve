@@ -8,7 +8,7 @@ import { sliderSettings } from '../../utils/common'
 const Goals = () => {
   return (
     <div className="r-wrapper">
-      <div className="paddings innerWidth r-container">
+      <div className="paddings innerWidth r-container" >
 
         <div className='r-head flexColStart'>
           <span className='orangeText'>Céljaink</span>
@@ -16,11 +16,11 @@ const Goals = () => {
 
         <Swiper {...sliderSettings}>
 
-          <SliderButtons />
 
+        
           {data.map((card, i) => (
-              <SwiperSlide key={i}>
-                <div className="flexColStart r-card">
+              <SwiperSlide key={i} >
+                <div className="flexColStart r-card" >
                   <img src={card.image} 
                   alt="miss" 
                   height={200}
@@ -37,6 +37,7 @@ const Goals = () => {
               </SwiperSlide>
             ))
           }
+          
         </Swiper>
       
       </div>

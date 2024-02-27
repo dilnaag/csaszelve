@@ -19,6 +19,10 @@
 .contactModes{
   margin-top: 2rem;
   gap: 1rem;
+  width: 100%;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap;
 }
 
 .contactModes .row {
@@ -26,7 +30,7 @@
 }
 
 .mode {
-  width: 16rem;
+  width: 20rem;
   padding: 1rem;
   border: 0.8px solid rgba(128, 128, 128, 0.268);
   box-shadow: 0 0 30px rgba(62, 75, 162, 0.558);
@@ -102,12 +106,30 @@
   }
   .contactModes{
     width: 100%;
+    border: 1px solid red;
   }
   .row{
     flex-direction: column;
+    
     width: 100%;
   }
   .mode{
     width: 100%;
   }
+}
+
+.contimg{
+  width: 50px;
+  border-radius: 50%;
+}
+
+.contactcontainer{
+  gap: 5px; 
+  display: flex;
+  justify-content: space-between;
+}
+
+.content{
+  width: 100%;
+  
 }
