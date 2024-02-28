@@ -106,7 +106,7 @@
   }
   .contactModes{
     width: 100%;
-    border: 1px solid red;
+    
   }
   .row{
     flex-direction: column;
@@ -132,4 +132,8 @@
 .content{
   width: 100%;
   
+}
+
+.foot{
+  padding: 2rem;
 }

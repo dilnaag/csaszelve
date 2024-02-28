@@ -11,11 +11,9 @@ const Contact = () => {
 
         
         <div className="flexColStart c-left">
+          <span className='primaryText'>Várjuk új Tagjainkat és Támogatóinkat.</span>
           <span className='primaryText'>Elérhetőségeink</span>
-          <span className='primaryText'>Vegye fel velünk a kapcsolatot!</span>
-          <span className='orangeText'>Várjuk új Tagjainkat és Támogatóinkat.
-          </span>
-
+          
           <div className="flexColStart contactModes">
             
             {contacts.map(obj =>
@@ -28,11 +26,11 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail content">
                     <div className='contactcontainer'>
-                      <span className='primaryText'>{obj.name}</span>
+                      <span className='orangeText'>{obj.name}</span>
                       <img src={obj.img} alt={obj.name} className='contimg'/>
                     </div>
                     
-                    <span className='primaryText'>{obj.position}</span>
+                    <span className='secondaryText'>{obj.position}</span>
                     <span className='secondaryText'>{obj.tel}</span>
                   </div>
                 </div>
@@ -42,10 +40,7 @@ const Contact = () => {
               </div>
             </div>
             )}
-              
-                 
-
-            
+          <span className='primaryText foot'>Vegye fel velünk a kapcsolatot!</span>  
           </div>
         </div>
       </div>

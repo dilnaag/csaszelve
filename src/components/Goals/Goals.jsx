@@ -16,8 +16,6 @@ const Goals = () => {
 
         <Swiper {...sliderSettings}>
 
-
-        
           {data.map((card, i) => (
               <SwiperSlide key={i} >
                 <div className="flexColStart r-card" >
